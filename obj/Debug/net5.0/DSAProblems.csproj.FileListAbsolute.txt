@@ -1,0 +1,15 @@
+D:\dotnet\DSAProblems\bin\Debug\net5.0\DSAProblems.exe
+D:\dotnet\DSAProblems\bin\Debug\net5.0\DSAProblems.deps.json
+D:\dotnet\DSAProblems\bin\Debug\net5.0\DSAProblems.runtimeconfig.json
+D:\dotnet\DSAProblems\bin\Debug\net5.0\DSAProblems.runtimeconfig.dev.json
+D:\dotnet\DSAProblems\bin\Debug\net5.0\DSAProblems.dll
+D:\dotnet\DSAProblems\bin\Debug\net5.0\DSAProblems.pdb
+D:\dotnet\DSAProblems\obj\Debug\net5.0\DSAProblems.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\DSAProblems\obj\Debug\net5.0\DSAProblems.AssemblyInfoInputs.cache
+D:\dotnet\DSAProblems\obj\Debug\net5.0\DSAProblems.AssemblyInfo.cs
+D:\dotnet\DSAProblems\obj\Debug\net5.0\DSAProblems.csproj.CoreCompileInputs.cache
+D:\dotnet\DSAProblems\obj\Debug\net5.0\DSAProblems.dll
+D:\dotnet\DSAProblems\obj\Debug\net5.0\refint\DSAProblems.dll
+D:\dotnet\DSAProblems\obj\Debug\net5.0\DSAProblems.pdb
+D:\dotnet\DSAProblems\obj\Debug\net5.0\DSAProblems.genruntimeconfig.cache
+D:\dotnet\DSAProblems\obj\Debug\net5.0\ref\DSAProblems.dll
