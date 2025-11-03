@@ -125,7 +125,9 @@ namespace DSAProblems
 
             //Leetcode next problems to try -> 77 | 17
 
-            SelectionSort();
+            //SelectionSort();
+
+            BubbleSort();
 
             //GrindProblemsHelper.ExecuteProblems();
 
@@ -183,7 +185,7 @@ namespace DSAProblems
 
         private static void BubbleSort()
         {
-            //System.Console.WriteLine(LeetcodeProblemsArrays.BubbleSort(new int[] { 64, 34, 25, 12, 22, 11, 90 }));
+            LeetcodeProblemsArrays.BubbleSort(new int[] { 64, 34, 25, 12, 22, 11, 90 });
         }
 
         private static void DailyTemperatures()
