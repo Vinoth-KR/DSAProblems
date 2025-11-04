@@ -126,7 +126,7 @@ namespace DSAProblems
         public static void BubbleSort(int[] arr)
         {
             int len = arr.Length;
-            for (int i = 0; i < len - 1; i++)
+            for (int i = 0; i < len; i++)
             {
                 for (int j = 0; j < len - 1 - i; j++)
                 {
@@ -141,6 +141,84 @@ namespace DSAProblems
 
             arr.ToList().ForEach(a => Console.Write($"{a}, "));
         }
+
+        public static void BubbleSortOptimized(int[] arr)
+        {
+            int len = arr.Length;
+            BubbleSortRecursive(arr, len);
+
+            arr.ToList().ForEach(a => Console.Write($"{a}, "));
+        }
+
+        public static void BubbleSortRecursive(int[] arr, int n)
+        {
+            //Base case
+            if (n == 1) return;
+
+            bool swapped = false;
+
+            for (int i = 0; i < n - 1; i++)
+            {
+                if (arr[i] > arr[i + 1])
+                {
+                    int temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    swapped = true;
+                }
+            }
+
+            if (!swapped) return;
+
+            BubbleSortRecursive(arr, n - 1);
+        }
+
+        #endregion
+
+        #region InsertionSort
+        public static void InsertionSort(int[] arr)
+        {
+            int len = arr.Length;
+            for (int i = 0; i < len; i++)
+            {
+                int j = i;
+                while (j > 0 && arr[j - 1] > arr[j])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = temp;
+                    j--;
+                }
+            }
+
+            arr.ToList().ForEach(a => Console.Write($"{a}, "));
+        }
+
+        public static void InsertionSortOptimized(int[] arr)
+        {
+            int len = arr.Length;
+            InsertionSortRecursive(arr, 0, len);
+
+            arr.ToList().ForEach(a => Console.Write($"{a}, "));
+        }
+
+        public static void InsertionSortRecursive(int[] arr, int i, int n)
+        {
+            if (i == n) return;
+
+            int j = i;
+            while (j > 0 && arr[j - 1] > arr[j])
+            {
+                int temp = arr[j];
+                arr[j] = arr[j - 1];
+                arr[j - 1] = temp;
+                j--;
+            }
+
+            InsertionSortRecursive(arr, i + 1, n);
+
+        }
+
         #endregion
 
         #region #739-Daily Temperatures

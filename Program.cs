@@ -127,7 +127,13 @@ namespace DSAProblems
 
             //SelectionSort();
 
-            BubbleSort();
+            //BubbleSort();
+
+            //BubbleSortOptimized();
+
+            InsertionSortOptimized();
+
+            //InsertionSort();
 
             //GrindProblemsHelper.ExecuteProblems();
 
@@ -186,6 +192,21 @@ namespace DSAProblems
         private static void BubbleSort()
         {
             LeetcodeProblemsArrays.BubbleSort(new int[] { 64, 34, 25, 12, 22, 11, 90 });
+        }
+
+        private static void BubbleSortOptimized()
+        {
+            LeetcodeProblemsArrays.BubbleSortOptimized(new int[] { 64, 34, 25, 12, 22, 11, 90 });
+        }
+
+        private static void InsertionSort()
+        {
+            LeetcodeProblemsArrays.InsertionSort(new int[] { 64, 34, 25, 12, 22, 11, 90 });
+        }
+
+        private static void InsertionSortOptimized()
+        {
+            LeetcodeProblemsArrays.InsertionSortOptimized(new int[] { 64, 34, 25, 12, 22, 11, 90 });
         }
 
         private static void DailyTemperatures()
