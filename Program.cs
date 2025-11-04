@@ -131,11 +131,13 @@ namespace DSAProblems
 
             //BubbleSortOptimized();
 
-            InsertionSortOptimized();
+            //InsertionSortOptimized();
 
             //InsertionSort();
 
             //GrindProblemsHelper.ExecuteProblems();
+
+            TufProblems.ExecuteProblems();
 
 
 
